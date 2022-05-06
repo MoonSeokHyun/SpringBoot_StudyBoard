@@ -11,3 +11,7 @@
 3) JPA를 사용한 상세보기 
 
 [https://devofroad.tistory.com/8](https://devofroad.tistory.com/84)5
+
+4) JPA를 사용한 삭제처리
+
+https://devofroad.tistory.com/86
