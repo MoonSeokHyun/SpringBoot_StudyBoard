@@ -6,7 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.PathVariable;
+=======
+>>>>>>> 34d741d976c06846346f9aeaea0b5450ab5a8d13
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -24,12 +27,20 @@ public class BoardController {
     }
 
     @PostMapping("/board/writepro")
+<<<<<<< HEAD
     public String boardWritePro(Board board ,Model model){
         model.addAttribute("message" , "글 작성이 완료 되었습니다.");
         model.addAttribute("SearchUrl" , "/board/list");
         boardService.write(board);
 
         return "Message";
+=======
+    public String boardWritePro(Board board){
+
+        boardService.write(board);
+
+        return "";
+>>>>>>> 34d741d976c06846346f9aeaea0b5450ab5a8d13
     }
 
     @GetMapping("/board/list")
@@ -47,6 +58,7 @@ public class BoardController {
     }
 
     @GetMapping("/board/delete")
+<<<<<<< HEAD
     public String boardDelete(Integer id ,Model model){
         boardService.boardDelete(id);
 
@@ -79,4 +91,12 @@ public class BoardController {
 
         return "Message";
     }
+=======
+    public String boardDelete(Integer id){
+        boardService.boardDelete(id);
+
+        return "redirect:/board/list";
+    }
+
+>>>>>>> 34d741d976c06846346f9aeaea0b5450ab5a8d13
 }
