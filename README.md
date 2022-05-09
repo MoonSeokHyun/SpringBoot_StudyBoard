@@ -15,3 +15,10 @@
 4) JPA를 사용한 삭제처리
 
 https://devofroad.tistory.com/86
+
+5) Jpa를 사용한 수정처리 
+
+https://devofroad.tistory.com/87
+
+6) JPA를 사용한 메시지 띄우기
+https://devofroad.tistory.com/88
