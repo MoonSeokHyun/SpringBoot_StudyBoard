@@ -21,4 +21,13 @@ https://devofroad.tistory.com/86
 https://devofroad.tistory.com/87
 
 6) JPA를 사용한 메시지 띄우기
+
 https://devofroad.tistory.com/88
+
+7) JPA를 사용한  페이징처리
+
+https://devofroad.tistory.com/89
+
+8) JPA를 사용한 검색기능
+
+https://devofroad.tistory.com/90
